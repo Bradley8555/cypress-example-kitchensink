@@ -31,7 +31,7 @@ context('async lesson', () => {
     cy.findAllByText('Actions').last().click({ force: true })
     cy.url().should('include', '/commands/actions')
     cy.findByText('Commands').click()
-    cy.findAllByText('Actions').first().click()
+    cy.findAllByText('Actions').last().click()
     cy.url().should('include', '/commands/actions')
   })
 

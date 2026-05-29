@@ -1,6 +1,6 @@
 context('My First Test', () => {
   beforeEach(() => {
-    cy.visit('/')
+    cy.visit('/commands/actions')
   })
 
   it('has a h1', () => {
