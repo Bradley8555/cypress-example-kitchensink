@@ -3,7 +3,7 @@
 context('Cypress APIs', () => {
   context('Cypress.Commands', () => {
     beforeEach(() => {
-      cy.visit('http://localhost:8080/cypress-api')
+      cy.visit('/cypress-api')
     })
 
     // https://on.cypress.io/custom-commands
@@ -36,7 +36,7 @@ context('Cypress APIs', () => {
 
   context('Cypress.Cookies', () => {
     beforeEach(() => {
-      cy.visit('http://localhost:8080/cypress-api')
+      cy.visit('/cypress-api')
     })
 
     // https://on.cypress.io/cookies
@@ -55,7 +55,7 @@ context('Cypress APIs', () => {
 
   context('Cypress.arch', () => {
     beforeEach(() => {
-      cy.visit('http://localhost:8080/cypress-api')
+      cy.visit('/cypress-api')
     })
 
     it('Get CPU architecture name of underlying OS', () => {
@@ -66,7 +66,7 @@ context('Cypress APIs', () => {
 
   context('Cypress.config()', () => {
     beforeEach(() => {
-      cy.visit('http://localhost:8080/cypress-api')
+      cy.visit('/cypress-api')
     })
 
     it('Get and set configuration options', () => {
@@ -96,7 +96,7 @@ context('Cypress APIs', () => {
 
   context('Cypress.dom', () => {
     beforeEach(() => {
-      cy.visit('http://localhost:8080/cypress-api')
+      cy.visit('/cypress-api')
     })
 
     // https://on.cypress.io/dom
